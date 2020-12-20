@@ -28,4 +28,4 @@ catch {
     }
 }
 
-Set-AzSqlDatabase -ResourceGroupName "todeleteRG" -DatabaseName "sqlpool" -ServerName "soolserver" -RequestedServiceObjectiveName $DWSize;
+Set-AzSqlDatabase -ResourceGroupName "myRG" -DatabaseName "mysqlpool" -ServerName "mysqlserver" -RequestedServiceObjectiveName $DWSize;
